@@ -19,7 +19,7 @@ The log files that we use for this exercise are in the Apache Common Log Format 
 -- hour = 2 digits\
 -- minute = 2 digits\
 -- second = 2 digits\
--- zone = (+ | -) 4 digits\
+-- zone = (+ | -) 4 digits
 
 - "GET /images/launch-logo.gif HTTP/1.0" ####This is the first line of the request string from the client. It consists of a three components: the request method (e.g., GET, POST, etc.), the endpoint (a Uniform Resource Identifier), and the client protocol version.
 
