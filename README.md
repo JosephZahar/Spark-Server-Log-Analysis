@@ -25,5 +25,5 @@ The log files that we use for this exercise are in the Apache Common Log Format 
 
 - 200 This is the status code that the server sends back to the client. This information is very valuable, because it reveals whether the request resulted in a successful response (codes beginning in 2), a redirection (codes beginning in 3), an error caused by the client (codes beginning in 4), or an error in the server (codes beginning in 5). The full list of possible status codes can be found in the HTTP specification (RFC 2616 section 10).
 
-- 1839 The last entry indicates the size of the object returned to the client, not including the response headers. If no content was returned to the client, this value will be "-" (or sometimes 0).
+- 1839 The last entry indicates the size of the object returned to the client, not including the response headers. If no content was returned to the client, this value will be "-".
 
